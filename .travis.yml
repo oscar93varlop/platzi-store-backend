@@ -1,4 +1,4 @@
-languaje: node_js
+language: node_js
 cache:
   directories:
     - node_modules
@@ -15,9 +15,9 @@ notifications:
     on_success: always
     on_failure: always
 deploy:
-  provide: heroku
-  skip-cleanup: true
-  keep-history: true
+  provider: heroku
+  skip_cleanup: true
+  keep_history: true
   api_key: 974b1c5a-e59b-480b-b0c8-e2157f20f573
   app: p-s-b
   on:
