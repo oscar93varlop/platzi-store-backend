@@ -18,7 +18,8 @@ deploy:
   provider: heroku
   cleanup: true
   keep-history: true
-  api_key: 974b1c5a-e59b-480b-b0c8-e2157f20f573
+  api_key:
+    secure: "UVgV4UUEK4zCXvO8MkL8dufG4Q1CwU/5g4zZrIsfhmXmUM+7evaUUWHsvYHHExy5mJiPGFsJ20E6PSsJdAKKYwURuWfM/43nFi5cRYWUFy7az+XdSZAS1CMT99cQ5hEc2SQuVsAE73MBWoTCNYM8TkDsiwd8nO8pW53oqmGlllMzgV9SDoR3Z19kNcydPtaoJR5d73bhNIGd8HIjZHdQkpVxqsm8OAuEXMIG1AlVIKz0qVGCe2bPLAJpceyGzTPKU24iEu7/km94TJUHGsFk4BKnHfHlXvuhkM4cnUZzougeUnQKgz9Zj2lJHCRmK33tm30pSSDnApV17Qw2M7KeEjVwfA0DKiZWzHQFnWdmfGwlIvRnNsxMnFqgqk0M5bIXFs6mHfk0B97NEi5iZJyN1vFNqNPBqPDZFut+uPbjdaW1PqvMm93lfe3dRFUAsLhq4q21AwFh7IGlNFLWJWcbMNjzV03L+6pH5rWHzIrtF8SxWx7y+LXQ3PVBIaI26tzT0n2H8vjRZp0iu2bCWeoNACK/SXhr4eAb2ytWJwC5UKRVwoU89aSBLRLZowU5KkUpYNLbg10TkARQgiG2rAuvUwdrDpvhzL55qoTLE0Pd9MxxB1EAbkG7h9gXWl+UAA4FTicQ1IWFNRbSUj7kG6Te0wODOlGwSP4f7C1AXzOI1NY="
   app: p-s-b
   on:
     repo: oscar93varlop/platzi-store-backend
