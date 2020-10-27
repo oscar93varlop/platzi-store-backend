@@ -1,0 +1,24 @@
+languaje: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script: yarn test
+notifications:
+  email:
+    recipients:
+      - oscar93varlop@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 974b1c5a-e59b-480b-b0c8-e2157f20f573
+  app: p-s-b
+  on:
+    repo: oscar93varlop/platzi-store-backend
